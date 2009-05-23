@@ -1,0 +1,20 @@
+= Kb Shortcuts
+
+Created by Joel Oliveira, May 2009.
+
+This extension is a very simple implementation of a few keyboard shortcuts that allow quicker access to common
+actions on the Radiant edit page.  Save (ctrl+shift+s), Save and Continue (ctrl+shift+c), view filters (ctrl+shift+f) 
+and view available tags (ctrl+shift+t).
+
+The large majority of javascript and hotkey support is provided by http://livepipe.net/extra/hotkey by 
+the LivePipe team - http://github.com/syntacticx
+
+== Installation
+
+1) Unpack/checkout/export the extension into vendor/extensions of your project.
+
+2) Run the extension update task to copy necessary JS files to the right location.
+
+  $ rake production radiant:extensions:kb_shortcuts:update
+  
+3) Restart your server.
